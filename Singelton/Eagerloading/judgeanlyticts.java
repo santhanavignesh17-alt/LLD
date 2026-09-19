@@ -1,4 +1,4 @@
-package Eagerloading;
+package Singelton.Eagerloading;
 
 public class judgeanlyticts {
   private static judgeanlyticts analyticts=new judgeanlyticts();
@@ -7,6 +7,9 @@ public class judgeanlyticts {
   }
 
   public static judgeanlyticts getInstance(){
+  
     return analyticts;
+
   }
 }
+
